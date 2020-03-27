@@ -1,0 +1,14 @@
+.Header .navigation {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.Header .navigation .div-link {
+    padding: 5px;
+    background-color: grey;
+    color: white;
+}
+
+.Header .navigation .div-link:hover {
+    background-color: darkgrey;
+}
